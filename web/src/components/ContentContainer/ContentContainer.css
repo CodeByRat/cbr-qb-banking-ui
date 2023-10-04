@@ -6,6 +6,10 @@
     border-right: 3px solid #DC143C;
 }
 
+.content-container__line-bottom {
+    border-bottom: 3px solid #DC143C;
+}
+
 .content-container__flex-row {
     display: flex;
 }

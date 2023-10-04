@@ -1,0 +1,13 @@
+.transactions {
+    display: flex;
+    justify-content: center;
+}
+
+.transactions h2 {
+    margin: 0;
+    margin-top: 40px;
+}
+
+.transactions .content-container__flex-row {
+    width: 20%;
+}

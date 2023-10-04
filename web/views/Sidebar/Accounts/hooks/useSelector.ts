@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 
-const useAccounts = () => {
-    const [activeAccount, setActiveAccount] = useState<string>('Checking');
+
+const useSelector = (defaultValue: string) => {
+    const [activeAccount, setActiveAccount] = useState<string>(defaultValue);
     
     useEffect(() => {
         console.log(activeAccount);
@@ -9,6 +10,6 @@ const useAccounts = () => {
 
 
     return {activeAccount, setActiveAccount};
-}
+};
 
-export default useAccounts;
+export default useSelector;

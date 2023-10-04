@@ -4,7 +4,7 @@ import { debugData } from "../utils/debugData";
 import { fetchNui } from "../utils/fetchNui";
 import BankingContainer from "./BankingContainer/BankingContainer";
 import SideBar from "../../views/Sidebar/Sidebar";
-import MainContent from "./MainContent/MainContent";
+import MainContent from "../../views/MainContent/MainContent";
 
 export interface ContainerProps {
   children: ReactNode;

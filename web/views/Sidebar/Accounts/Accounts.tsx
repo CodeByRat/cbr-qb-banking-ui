@@ -1,6 +1,6 @@
 import AccountCard from "./AccountCard/AccountCard";
 import "./Accounts.css";
-import useAccounts from "./hooks/useAccounts";
+import useSelector from "./hooks/useSelector";
 
 export interface Account {
   accountName: string;
@@ -12,7 +12,7 @@ interface AccountProps {
 }
 
 const Accounts: React.FC<AccountProps> = ({ accounts }) => {
-  const { activeAccount, setActiveAccount } = useAccounts();
+  const { activeAccount, setActiveAccount } = useSelector("Checking");
 
   return (
     <section>
