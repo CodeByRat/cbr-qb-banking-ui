@@ -1,0 +1,8 @@
+.banking-container {
+    background: #070C15;
+    border-radius: 8px;
+    height: 800px;
+    width: 900px;
+
+    display: flex;
+}
