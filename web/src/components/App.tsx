@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { ReactNode, useState } from "react";
 import "./App.css";
 import { debugData } from "../utils/debugData";
 import { fetchNui } from "../utils/fetchNui";
 import BankingContainer from "./BankingContainer/BankingContainer";
-import SideBar from "./Sidebar/Sidebar";
+import SideBar from "../../views/Sidebar/Sidebar";
 import MainContent from "./MainContent/MainContent";
+
+export interface ContainerProps {
+  children: ReactNode;
+}
 
 // This will set the NUI to visible if we are
 // developing in browser
@@ -55,7 +59,7 @@ const App: React.FC = () => {
   return (
     <div className="nui-wrapper">
       <BankingContainer>
-        <SideBar />
+        <SideBar accountNumber="US-6QBCore5302470454" />
         <MainContent></MainContent>
       </BankingContainer>
     </div>

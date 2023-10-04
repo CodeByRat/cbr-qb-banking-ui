@@ -1,0 +1,12 @@
+h1 {
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
+}
+
+.welcome-tagline {
+    text-align: start;
+    padding-left: 8px;
+}

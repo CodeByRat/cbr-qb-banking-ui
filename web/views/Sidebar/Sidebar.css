@@ -1,0 +1,19 @@
+.sidebar {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+.sidebar .button {
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.account-number-card {
+    display: flex;
+    flex-direction: column;
+}

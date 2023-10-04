@@ -1,0 +1,18 @@
+.content-container__line-left {
+    border-left: 3px solid #DC143C;
+}
+
+.content-container__line-right {
+    border-right: 3px solid #DC143C;
+}
+
+.content-container__flex-row {
+    display: flex;
+}
+
+.content-container__flex-column-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
