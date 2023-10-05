@@ -18,8 +18,8 @@ interface SidebarProps {
 const SideBar: React.FC<SidebarProps> = ({ accountNumber }) => {
   return (
     <div className="sidebar">
-      <Card center={true}>
-        <ContentContainer lineLocation="left" flexDirection="row">
+      <Card center={false}>
+        <ContentContainer lineLocation="none" flexDirection="row">
           <WelcomeTagline username="Maurice Beverly" cashAmount={10153.32} />
         </ContentContainer>
       </Card>

@@ -1,9 +1,8 @@
 .nav-bar {
     padding-top: 24px;
     display: flex;
-    padding-left: 72px;
+    padding-left: 24px;
 }
-
 
 .nav-bar ul {
     flex-direction: row;

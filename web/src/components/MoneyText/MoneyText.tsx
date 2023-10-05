@@ -5,7 +5,8 @@ interface MoneyTextProps {
 }
 
 const MoneyText: React.FC<MoneyTextProps> = ({ value }) => {
-  const positive = Math.sign(value);
+  const positive = Math.sign(value) !== -1 ? true : false;
+  console.log(value, positive);
 
   return (
     <span
@@ -15,7 +16,7 @@ const MoneyText: React.FC<MoneyTextProps> = ({ value }) => {
           : "money-text money-text__negative"
       }
     >
-      {positive ? null : "-"} ${value.toLocaleString("en-US")}
+      ${value.toLocaleString("en-US")}
     </span>
   );
 };

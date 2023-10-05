@@ -1,13 +1,41 @@
 .transactions {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    margin-top: 48px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .transactions h2 {
     margin: 0;
-    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 8px;
+    font-weight: 600;
 }
 
 .transactions .content-container__flex-row {
     width: 20%;
+}
+
+.transactions .card {
+    display: flex;
+    background-color: #0B1017;
+}
+
+.transactions ul {
+    margin-top: 16px;
+}
+
+.name-date {
+    text-align: start;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.transactions .money-text {
+    align-self: center;
+    flex-grow: 1;
+    text-align: end;
 }
