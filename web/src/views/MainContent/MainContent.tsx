@@ -1,7 +1,7 @@
-import NavBar from "../../src/components/NavBar/NavBar";
+import NavBar from "../../components/NavBar/NavBar";
 import "./MainContent.css";
 import Transactions, { Transaction } from "../Transactions/Transactions";
-import burgerImage from "../../src/images/summer_food_1 1.png";
+import burgerImage from "../../images/summer_food_1 1.png";
 
 const transactions: Transaction[] = [
   {
@@ -19,6 +19,16 @@ const transactions: Transaction[] = [
     name: '"Services"',
     date: new Date("January 05, 2023"),
     amount: 1738.69,
+  },
+  {
+    name: "Dog Bowl",
+    date: new Date("January 05, 2023"),
+    amount: 1738.69,
+  },
+  {
+    name: "Meth",
+    date: new Date("January 05, 2023"),
+    amount: -150.81,
   },
 ];
 

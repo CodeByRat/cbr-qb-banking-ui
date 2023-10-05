@@ -1,4 +1,4 @@
-import { ContainerProps } from "../App";
+import { ContainerProps } from "../../views/App/App";
 import "./Button.css";
 
 type ButtonType = "red" | "green";

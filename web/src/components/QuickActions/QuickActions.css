@@ -1,0 +1,15 @@
+.quick-actions__button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quick-actions__button-group-container {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quick-actions__button-group-container button {
+    min-width: 192px;
+}

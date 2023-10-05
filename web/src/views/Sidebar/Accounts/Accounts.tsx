@@ -4,7 +4,7 @@ import useSelector from "./hooks/useSelector";
 
 export interface Account {
   accountName: string;
-  amount: number;
+  accountBalance: number;
 }
 
 interface AccountProps {
@@ -22,7 +22,7 @@ const Accounts: React.FC<AccountProps> = ({ accounts }) => {
           <li>
             <AccountCard
               accountName={account.accountName}
-              amount={account.amount}
+              accountBalance={account.accountBalance}
               onClickCB={() => {
                 setActiveAccount(account.accountName);
               }}

@@ -16,6 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "views/Sidebar", "views/MainContent"],
+  "include": ["src", "views/Sidebar", "src/views/MainContent"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

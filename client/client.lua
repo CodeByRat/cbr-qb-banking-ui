@@ -8,6 +8,12 @@ RegisterCommand('show-nui', function()
   debugPrint('Show NUI frame')
 end)
 
+RegisterCommand('show-nui', function()
+  toggleNuiFrame(true)
+  debugPrint('Show NUI frame')
+  openAccountScreen()
+end)
+
 RegisterNUICallback('hideFrame', function(_, cb)
   toggleNuiFrame(false)
   debugPrint('Hide NUI frame')

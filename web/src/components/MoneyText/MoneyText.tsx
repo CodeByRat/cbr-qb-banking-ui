@@ -16,7 +16,7 @@ const MoneyText: React.FC<MoneyTextProps> = ({ value }) => {
           : "money-text money-text__negative"
       }
     >
-      ${value.toLocaleString("en-US")}
+      ${value?.toLocaleString("en-US")}
     </span>
   );
 };

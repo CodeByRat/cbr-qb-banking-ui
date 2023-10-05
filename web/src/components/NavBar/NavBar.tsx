@@ -1,4 +1,4 @@
-import useSelector from "../../../views/Sidebar/Accounts/hooks/useSelector";
+import useSelector from "../../views/Sidebar/Accounts/hooks/useSelector";
 import ContentContainer from "../ContentContainer/ContentContainer";
 import qbIcon from "../../images/logo.png";
 import "./NavBar.css";

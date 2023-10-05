@@ -1,17 +1,11 @@
 .transactions {
+    height: 83%;
+    max-height: 83%;
     display: flex;
     flex-direction: column;
     margin-top: 48px;
     margin-left: 24px;
     margin-right: 24px;
-    max-height: 60%;
-}
-
-.transactions h2 {
-    margin: 0;
-    font-size: 20px;
-    margin-left: 8px;
-    font-weight: 600;
 }
 
 .transactions .content-container__flex-row {
@@ -25,6 +19,8 @@
 
 .transactions ul {
     margin-top: 16px;
+    max-height: 85%;
+    overflow: auto;
 }
 
 .name-date {
@@ -44,4 +40,9 @@
 .transactions ul {
     overflow: auto;
     padding-right: 8px;
+}
+
+.transaction-panel {
+    max-height: 69%;
+    height: 69%
 }
