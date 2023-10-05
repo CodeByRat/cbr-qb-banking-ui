@@ -1,6 +1,6 @@
 .main-content {
     background-color: #111822;
-    box-shadow: -8px 8px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: -8px 8px 4px rgba(0, 0, 0, 0.1);
     border-top-left-radius: 8px; 
     border-top-right-radius: 8px;
     width: 100%;

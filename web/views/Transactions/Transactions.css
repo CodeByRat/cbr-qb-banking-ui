@@ -4,6 +4,7 @@
     margin-top: 48px;
     margin-left: 24px;
     margin-right: 24px;
+    max-height: 60%;
 }
 
 .transactions h2 {
@@ -38,4 +39,9 @@
     align-self: center;
     flex-grow: 1;
     text-align: end;
+}
+
+.transactions ul {
+    overflow: auto;
+    padding-right: 8px;
 }
